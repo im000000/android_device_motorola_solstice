@@ -7,7 +7,7 @@
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 4294967296
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/motorola/scorpion_mini/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/motorola/solstice/bluetooth
 
 # Kernel
 #TARGET_PREBUILT_KERNEL := device/motorola/scorpion_mini/kernel
