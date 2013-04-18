@@ -1,5 +1,5 @@
-# Inherit device configuration for VZW Droid RAZR.
-$(call inherit-product, device/motorola/scorpion_mini/full_scorpion_mini.mk)
+# Inherit device configuration for USC Electrify M.
+$(call inherit-product, device/motorola/scorpion_mini/full_solstice.mk)
 
 # Inherit some common stuff.
 $(call inherit-product, vendor/cna/config/common_full_phone.mk)
@@ -7,19 +7,19 @@ $(call inherit-product, vendor/cna/config/common_full_phone.mk)
 # Inherit some common stuff.
 #$(call inherit-product, vendor/cna/config/gsm.mk)
 
-#DEVICE_PACKAGE_OVERLAYS += device/motorola/scorpion_mini/overlay/cm
+#DEVICE_PACKAGE_OVERLAYS += device/motorola/solstice/overlay/cm
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cna_scorpion_mini
-PRODUCT_BRAND := verizon
-PRODUCT_DEVICE := scorpion_mini
+PRODUCT_NAME := cna_solstice
+PRODUCT_BRAND := usc
+PRODUCT_DEVICE := solstice
 PRODUCT_DEVICE_PREFIX := cdma
-PRODUCT_MODEL := XT907
+PRODUCT_MODEL := XT905
 PRODUCT_MANUFACTURER := Motorola
-PRODUCT_RELEASE_NAME := DROID RAZR M
-PRODUCT_SFX := vzw
+PRODUCT_RELEASE_NAME := ELECTRIFY M
+PRODUCT_SFX := usc
 
 UTC_DATE := $(shell date +%s)
 DATE := $(shell date +%Y%m%d)
