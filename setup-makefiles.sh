@@ -1,5 +1,5 @@
 #!/bin/sh
-DEVICE=scorpion_mini
+DEVICE=solstice
 VENDOR=motorola
 
 OUTDIR=vendor/$VENDOR/$DEVICE
