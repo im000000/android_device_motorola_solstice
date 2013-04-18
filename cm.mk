@@ -1,4 +1,4 @@
-$(call inherit-product, device/motorola/scorpion_mini/full_solstice.mk)
+$(call inherit-product, device/motorola/solstice/full_solstice.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/cdma.mk)
